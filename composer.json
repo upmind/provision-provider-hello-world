@@ -14,12 +14,12 @@
         }
     },
     "require": {
-        "php": "7.4 - 8.3",
-        "upmind/provision-provider-base": "^3.0 || ^4.0"
+        "php": "^8.3",
+        "upmind/provision-provider-base": "dev-feature/base-v5-support as 5.0.0"
     },
     "require-dev": {
-        "phpstan/phpstan": "^1.10",
-        "phpunit/phpunit": "^9.0 || ^10.0 || ^11.0"
+        "phpstan/phpstan": "^2.0",
+        "phpunit/phpunit": "^12.0 || ^13.0"
     },
     "extra": {
         "laravel": {
